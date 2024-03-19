@@ -1,0 +1,103 @@
+
+
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   
+}
+nav{
+    background-color: rgb(10, 116, 33);
+}
+
+.home1-2{ 
+    height: 500px;
+    position: relative;
+     background-image: url('./images/home.jpeg');
+     background-position: center;
+     background-size: 100% 700px;
+     background-repeat: no-repeat;
+  
+}
+@media only screen and (max-width: 600px) {
+    .home1-2 {
+       background-image: url('./images/home2.jpg');
+       background-position: center;
+       background-size: 100% 100%;
+       background-repeat: no-repeat;
+    }
+  }
+
+.home1-2-3{
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+.welcome{
+    font-size: 70px;
+}
+.upper{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+.nav-link{
+    color: rgb(232, 253, 219);
+}
+.nav-item{
+    margin-left: 10px;
+}
+.navbar-brand{
+color: rgb(232, 253, 219);
+}
+.nav-link:hover{
+    color: rgb(0, 0, 0);
+}
+.todo-item { 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+   }
+   .todo-item p {
+    color: #888;
+    text-decoration: line-through;
+   }
+   .faPagelines{
+    color: rgb(35, 226, 35);
+   }
+   .card{
+    margin-top: 30px;
+   }
+.input-text{
+    
+    resize: none;
+
+}
+.form-group{
+    padding-bottom: 15px;
+}
+.form-container{
+    background-color: rgb(173, 228, 23);
+}
+
+  .footer{
+    min-height: 100px;
+    color: beige;
+    background-color: rgb(33,32,33);
+    
+   }
+   .footer a{
+       text-decoration: none;
+       color: rgb(255, 255, 255);
+       font-weight: bold;
+   }
+   .footerlogo h3{
+      
+       color: blanchedalmond;
+   }
